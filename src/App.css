@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+body{
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+/*>>>>>>>>>>>HEADER CSS<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.header_logo{
+  margin-right: 150px;
+}
+
+.header_toolbar{
+  background-color: white!important;
+  color:#4D4F5C!important;
+}
+
+.toolbar_right{
+  margin-left: 65%!important;
+}
+
+@media(max-width:800px){
+  .toolbar_right{
+  margin-left: 2%!important;
+  }
+  .username{
+    display:none!important;
+  }
+  .search{
+    display: none!important;
+  }
+  .mobilesearch{
+    display:block!important;
+    margin-left:75%!important;
+  }
+  .addfundbutton{
+    margin-left: 1%!important;
+  }
+}
+.list_item_icons{
+font-size: 20px;
+}
+
+.mobilesearch{
+  display:none;
+}
+
+.username{
+  margin-left: 5px!important;
+}
+
+.userimage{
+  margin-left: 12px!important;
+  width: 25px!important;
+  height: 25px!important;
+}
+
+.list_item:hover{
+  color: white!important;
+  background-color: #3C3B54!important;
+
+}
+
+.list_item:active {
+  border-left-style: solid!important;
+  border-left-color: #6763E3!important;   
+}
+
+.new{
+  background-color: #FF4A33!important;
+  color:white!important;
+  position:relative!important;
+  left: 130px!important;
+  border-radius: 20px!important;
+  font-size: 12px!important;
+  width:40px!important;
+  text-align: center;
+}
+
+.search{
+  font-size: 12px!important;
+  white-space: nowrap!important;
+}
+
+.notification_container{
+  display:flex;
+  justify-content: space-around;
+  height:50px;
+  overflow-y: hidden!important;
+}
+
+.notification_container_image{
+  width:40px!important;
+  height:40px!important;
+}
+
+.notification_container_image_message{
+  font-size: 9px;
+  margin-top: -15%;
+}
+
+.notification_container_name{
+  text-align: start;
+  margin-top: -8%;
+}
+.notification_time{
+  font-size: 9px;
+}
+
+.notification_showmore{
+  text-align: center;
+  color:#3B86FF;
+  font-size: 10px;
+}
+
+
+/*>>>>>>>>>>>>>>>Main Content Style<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.mainbody{
+  background-color: #F5F7FB!important;
+}
+
+.maincontent_heading{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addfundbutton{
+  width: 120px!important;
+  height:33px!important;
+  font-size: 12px!important;
+  background-color: #6763E3!important;
+  text-transform: capitalize!important;
+}
+
+.addfundicon{
+margin-left: 15%!important;
+font-size: 12px!important;
+}
+
+/*>>>>>>>>>>>>>>>>>>>STATISTICS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.statistics_title{
+  display:flex;
+  justify-content: space-between;
+}
+
+.statistics_footer{
+  display: flex;
+  justify-content:space-evenly
+}
+
+/*>>>>>>>>>>>>>>>>>>>SALES DISTRIBUTION<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.sales_distribution_title{
+  display:flex;
+  justify-content: space-between;
+}
+
+
+/*>>>>>>>>>>>>>>>PROFILE INFO<<<<<<<<<<<<<<<<<<<<*/
+
+.profileinfouserimage{
+  margin-left: 55%!important;
+  margin-top: 3%!important;
+  width: 60px!important;
+  height: 60px!important;
+}
+
+.facebook,.whatsapp,.linkedin{
+  margin-left: 4%;
+}
+
+.profileinfo_subcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.users_container{
+  display:flex;
+  justify-content: space-between;
+  height:50px;
+  overflow-y: hidden!important;
+}
+
+.usermenu{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.usermenu_text{
+margin-right: 35px;
+}
+
+.usermenu_container{
+line-height: 2px;
+}
+
+.users_container_image_message{
+  font-size: 9px;
+  margin-top: -15%;
+}
+
+.users_container_image{
+  width:40px!important;
+  height:40px!important;
+  margin-left: 4%!important;
+}
+
+.users_container_name{
+  text-align: start;
+  margin-top: -4%;
+  margin-right: 100px;
+}
+.users_time{
+  font-size: 9px;
+  text-align: center;
+  margin-top: 6%;
+}
